@@ -11,7 +11,7 @@ FROM node:lts-alpine@sha256:ed51af876dd7932ce5c1e3b16c2e83a3f58419d824e366de1f7b
 RUN apk add dumb-init
 ENV NODE_ENV development
 WORKDIR /app
-COPY package.json /app/
-COPY . /app/
+ADD package.json /app/
+ADD . /app/
 RUN npm install && npm cache clean --force
 CMD ["dumb-init", "npm", "run", "start:dev"]

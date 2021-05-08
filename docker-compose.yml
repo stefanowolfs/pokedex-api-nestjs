@@ -12,10 +12,10 @@ services:
       - /app/node_modules
     ports:
       - 3000:3000
-      - 9229:9229
+      - 9227:9229
     networks:
       - pokedex-network
-    restart: unless-stopped
+    # restart: unless-stopped
 networks:
   pokedex-network:
     driver: bridge
