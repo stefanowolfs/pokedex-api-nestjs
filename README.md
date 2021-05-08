@@ -47,10 +47,10 @@ $ npm run test:cov
 
 ## Project status
 
-- [] Add containerization with docker.
-- [] Add enviroment variables.
-- [] Organize project structure using a more hexagonal approach.
-- [] Add pokemon listing endpoint (consuming the [pokeapi](https://pokeapi.co/)).
+- [ ] Add containerization with docker.
+- [ ] Add enviroment variables.
+- [ ] Organize project structure using a more hexagonal approach.
+- [ ] Add pokemon listing endpoint (consuming the [pokeapi](https://pokeapi.co/)).
 
 ## About
 
