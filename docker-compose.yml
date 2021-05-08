@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      target: development
+      dockerfile: Dockerfile
+    container_name: pokedex-api
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - 3000:3000
+      - 9229:9229
+    networks:
+      - pokedex-network
+    restart: unless-stopped
+networks:
+  pokedex-network:
+    driver: bridge
+    external: true
