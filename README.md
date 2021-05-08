@@ -51,6 +51,8 @@ $ npm run test:cov
 - [ ] Add enviroment variables.
 - [ ] Organize project structure using a more hexagonal approach.
 - [ ] Add pokemon listing endpoint (consuming the [pokeapi](https://pokeapi.co/)).
+- [ ] Add unity tests.
+- [ ] Configure custom paths for file imports.
 
 ## About
 
