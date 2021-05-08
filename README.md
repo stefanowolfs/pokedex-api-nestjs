@@ -45,6 +45,13 @@ $ npm run test:cov
 
 > :bulb: Important thing to notice is that a new **html** file in `/coverage/lcov-report/index.html` containing more about the results.
 
+## Project status
+
+- [] Add containerization with docker.
+- [] Add enviroment variables.
+- [] Organize project structure using a more hexagonal approach.
+- [] Add pokemon listing endpoint (consuming the [pokeapi](https://pokeapi.co/)).
+
 ## About
 
 - Author - [Stefano Soro](https://www.linkedin.com/in/stefanosorodeveloper/)
