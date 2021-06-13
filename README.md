@@ -53,11 +53,12 @@ $ npm run test:cov
 
 - [x] Add containerization with docker.
 - [x] Add enviroment variables.
-- [ ] Organize project structure using a more hexagonal approach.
-- [ ] Add pokemon listing endpoint (consuming the [pokeapi](https://pokeapi.co/)).
-- [ ] Add unity tests.
-- [ ] Configure custom paths for file imports.
+- [x] Organize project structure using a more hexagonal approach.
+- [x] Add downloadable pokemons endpoint.
+- [x] Add unity tests.
+- [ ] Add pokemon details endpoint.
 - [ ] Add swagger for API Documentation.
+- [ ] Configure custom paths for file imports.
 
 ## About
 
