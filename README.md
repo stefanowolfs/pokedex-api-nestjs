@@ -13,6 +13,10 @@
 
 API made with NestJS using an **hexagonal** approach on the architecture to fetch pokemon data for a React-Native project serving as a BFF for it. Mobile project link [pokedex-reactnative](https://github.com/stefanowolfs/pokedex-reactnative).
 
+## Entity Relation mapping
+
+Since I'm creating a new BFF based on a pre-existing API, I thought it was also interesting to have an ER mapping for our SQLite database. Here you can access [my ER diagram](https://drive.google.com/file/d/1Ad9VgQTTkNlVqbgm1KfZBbTfkYIaBtBQ/view?usp=sharing) stored in google drive.
+
 ## Setup for development
 
 - You need to configure your `.env` or **host environment** variables in order to connect to the database.
