@@ -13,11 +13,7 @@ export class PokemonService {
   public async listDownloadable(): Promise<DownloadablePokemonResponse[]> {
     try {
       const BATCH_SIZE = 100;
-      const teste: DownloadablePokemonResponse[] = await this.recursivelyBuildPokemonDownloadList(
-        true,
-        BATCH_SIZE,
-      );
-      return teste;
+      return this.recursivelyBuildPokemonDownloadList(true, BATCH_SIZE);
     } catch (err) {
       throw new InternalServerErrorException();
     }
